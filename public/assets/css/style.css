@@ -1,4 +1,9 @@
 /* Styles Généraux */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
 /* medhi */
 
 /* Thibaud */
@@ -11,6 +16,22 @@
 /* Styles main */
 
 /* Styles présentation */
+.presentation {
+    display: block;
+    padding: 30px;
+}
+.photochef {
+    width: 25%;
+    float: left;
+}
+.presentation h1 {
+    text-align: right;
+}
+.presentation p {
+    font-size: 23px;
+    text-align: right;
+}
+
 
 /* Styles plats et explications */
 
