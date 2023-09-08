@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    /* width: 100vw; */
 }
 /* mehdi */
 
@@ -59,3 +59,9 @@ h2 {
 /* Styles formulaire de contact */
 
 /* Styles footer */
+
+.footer-coypright {
+    /* font-family: en attente de la police kurale google font; */
+    text-align: center;
+    font-size: 20px;
+}
