@@ -1,5 +1,10 @@
 /* Styles Généraux */
-/* medhi */
+body {
+    margin: 0;
+    padding: 0;
+    /* width: 100vw; */
+}
+/* mehdi */
 
 /* Thibaud */
 
@@ -7,6 +12,41 @@
 
 
 /* Styles header */
+
+nav {
+    background-color: #080808;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding-right: 30px;
+
+}
+nav  a{
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #ffffff; /* couleur du texte */
+    background: #5D92BE; /* couleur de fond */
+    font-size: 35px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+}
+nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #f43c80; /* couleur de fond */
+}
+.background-home {
+    background-size: cover;
+    background-image: url(/public/assets/img/home.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+
 
 /* Styles main */
 
@@ -19,3 +59,9 @@
 /* Styles formulaire de contact */
 
 /* Styles footer */
+
+.footer-coypright {
+    /* font-family: en attente de la police kurale google font; */
+    text-align: center;
+    font-size: 20px;
+}
