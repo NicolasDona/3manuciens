@@ -47,7 +47,6 @@ h2 {
 }
 
 
-
 /* Styles main */
 
 /* Styles présentation */
@@ -55,13 +54,53 @@ h2 {
 /* Styles plats et explications */
 
 /* Styles adresse et plan */
+.map-cont_master1 {
+display: flex;
+}
+.map-cont_img {
+    width: 496px;
+    height: 729px;
+    margin: 30px 20px 30px 20px; 
+
+}
+.map-cont_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: 0 0 0 800px;
+
+}
+.map-cont_name {
+    font-size: 40px;
+    width: 340px; /* Largeur du bloc Nom */
+    text-align: right; /* Aligner le texte à droite */
+    margin-left: auto; /* Déplacer le bloc vers la droite pour compenser la largeur */
+    margin-top: 30px;
+
+}
+.map-cont_line {
+    border: 0; /* Supprimer la bordure par défaut du hr */
+    border-top: 2px solid #000; /* Ajouter une bordure en haut du hr */
+    width: 30%;
+    margin: 20px 0; /* Espacement en haut et en bas du hr */
+}
+.map-cont_adress {
+    color: #CDC056;
+    font-size: 40px;
+    margin: 20px 0 30px 0;
+    
+}
+.map-cont_plan {
+    margin-bottom: 80px;
+}
+
 
 /* Styles formulaire de contact */
 .form-cont_master1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
     background-color: #000000;
 }
@@ -70,46 +109,71 @@ h2 {
     color: white;
     font-size: 65px;
     font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 84px;
+    text-align: left;
+    padding: 84px 250px 60px 0;  /* Placement du titre */
 }
 
 .form-cont_form {
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 0 180px 0 350px; /* Placement du bloc de tout le formulaire + le bouton */
+    width: 80%;
+}
+.form {
     width: 100%;
-    max-width: 400px;
+    flex-direction: row;
+
 }
 .form-group {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 20px;
+    flex-direction: row; /* Placez les éléments en ligne */
+    align-items: center; /* Centrez les éléments verticalement */
+    padding: 0 0 45px 0;
 }
 
 .form-cont_mail {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
-    width: 100%;
+    padding: 0 0 45px 0;
+
 }
 
 label {
+    flex: 1;
+    font-size: 35px;
+    white-space: nowrap;
     font-weight: bold;
-    text-align: left;
+    text-align: right;
+    margin-right: 50px; /* Espace entre le label et le champ de saisie */
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
-    padding: 5px;
+    flex: 4; /* Faites en sorte que le champ de saisie occupe plus d'espace */
+    padding: 30px;
     margin-top: 5px;
+    border-radius: 20px;
 }
 
+/* Styles CSS pour cibler le bouton */
+.form-button input[type="submit"] {
+    background-color: #5D92BE;
+    color: white;
+    border: none; /* Supprimez la bordure du bouton */
+    padding: 10px 50px; /* Ajoutez de la marge intérieure pour le bouton */
+    border-radius: 20px;
+    cursor: pointer; /* Changez le curseur au survol du bouton */
+    font-size: 20px; /* Taille de la police du texte du bouton */
+    margin: 50px 0 20px 340px; /* Placement du bouton */
+    font-weight: bold;
 
+}
+
+/* Style pour le survol du bouton */
+.form-button input[type="submit"]:hover {
+    background-color: #f43c80;
+}
 
 /* Styles footer */
