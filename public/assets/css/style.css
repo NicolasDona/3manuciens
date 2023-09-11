@@ -52,6 +52,8 @@ h2 {
 /* Styles présentation */
 .presentation {
     display: block;
+    /* width: 100vw; */
+    height: 100vh;
 }
 .photochef {
     width: 25%;
@@ -71,10 +73,11 @@ h2 {
 /* Styles adresse et plan */
 .map-cont_master1 {
 display: flex;
+
+ 
 }
 .map-cont_img {
     width: 496px;
-    height: 729px;
     margin: 30px 20px 30px 20px; 
 
 }
@@ -83,7 +86,10 @@ display: flex;
     flex-direction: column;
     align-items: flex-end;
     text-align: right;
-    padding: 0 0 0 800px;
+    padding: 0 0 0 340px;
+
+
+
 
 }
 .map-cont_name {
@@ -107,7 +113,7 @@ display: flex;
     
 }
 .map-cont_plan {
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 }
 
 
@@ -116,7 +122,6 @@ display: flex;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
     background-color: #000000;
 }
 
@@ -125,14 +130,14 @@ display: flex;
     font-size: 65px;
     font-weight: bold;
     text-align: left;
-    padding: 84px 250px 60px 0;  /* Placement du titre */
+    padding: 84px 040px 60px 0;  /* Placement du titre */
 }
 
 .form-cont_form {
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 0 180px 0 350px; /* Placement du bloc de tout le formulaire + le bouton */
+
     width: 80%;
 }
 .form {
