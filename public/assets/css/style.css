@@ -32,13 +32,15 @@ nav  a:hover{ /* tous liens lors du survol dans la balise nav */
     background: #f43c80; /* couleur de fond */
 }
 .background-home {
+    height: 100vh;
+    width: 100vw;
     background-size: cover;
     background-image: url(/public/assets/img/home.jpeg);
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+
     color: white;
 }
+
 h1 {
     text-align: center;
 }
@@ -46,7 +48,25 @@ h2 {
     text-align: center;
 }
 
-
+.background-plats {
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+    background-color: #020204;
+    color: white;
+}
+img {
+    width: 25%;
+}
+#repas {
+    float: right;
+}
+#restaurant {
+    float: left;
+}
+#dessert {
+    float: right;
+}
 
 /* Styles main */
 
