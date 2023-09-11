@@ -14,7 +14,8 @@
 body {
     margin: 0;
     padding: 0;
-    /* width: 100vw; */
+    width: 100vw;
+    height: 100vh;
 }
 /* mehdi */
 
@@ -29,7 +30,7 @@ nav {
     background-color: #080808;
     display: flex;
     justify-content: end;
-    gap: 30px;
+    gap: 40px;
     padding-right: 30px;
     font-family: kurale;
 }
@@ -37,7 +38,10 @@ nav  a{
     text-decoration: none; /* pas d'héritage avec effet souligné */
     color: #ffffff; /* couleur du texte */
     background: #5D92BE; /* couleur de fond */
-    font-size: 35px; /* taille du texte */
+    border-radius: 60px;
+    border: 2px solid #ffffff; /* Définir un contour blanc de 2px autour des liens */
+    padding: 10px;
+    font-size: 25px; /* taille du texte */
     transition: .5s; /* temps de transition lors du hover : une demi seconde */
 }
 nav  a:hover{ /* tous liens lors du survol dans la balise nav */
@@ -50,9 +54,24 @@ nav  a:hover{ /* tous liens lors du survol dans la balise nav */
     height: 100vh;
     width: 100vw;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
 }
 .titre {
+    height: 50%; /* Ajustez la hauteur à 100% */
+    line-height: 60px;
 
+}
+.titre :first-child {
+    font-family: inknut;
+    font-size: 70px;
+}
+.titre :last-child {
+    font-family: aurore;
+    font-size: 70px;
+    text-align: center;
 }
 
 /* Styles main */
