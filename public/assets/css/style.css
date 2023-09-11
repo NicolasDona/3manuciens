@@ -14,12 +14,8 @@
 body {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    /* width: 100vw; */
-=======
     width: 100vw;
     height: 100vh;
->>>>>>> f98785d3cf7a5632d4e5832f8dee572520fbc4d0
 }
 /* mehdi */
 
@@ -31,6 +27,8 @@ body {
 /* Styles header */
 
 nav {
+    position: fixed;
+    width: 100vw;
     background-color: #080808;
     display: flex;
     justify-content: end;
@@ -77,25 +75,20 @@ nav  a:hover{ /* tous liens lors du survol dans la balise nav */
     font-size: 70px;
     text-align: center;
 }
-<<<<<<< HEAD
-h2 {
-    text-align: center;
-}
-
-=======
->>>>>>> f98785d3cf7a5632d4e5832f8dee572520fbc4d0
-
 /* Styles main */
 
 /* Styles présentation */
 .presentation {
-    display: block;
-    /* width: 100vw; */
     height: 100vh;
+    margin: 40px;
+    display: block;
+    font-family: aurore;
+    line-height: 40px;
 }
 .photochef {
     width: 25%;
     float: left;
+
 }
 .presentation h1 {
     text-align: right;
@@ -103,6 +96,7 @@ h2 {
 .presentation p {
     font-size: 23px;
     text-align: right;
+
 }
 
 
@@ -119,7 +113,7 @@ h2 {
     
     
 }
-img {
+.explication img {
     width: 25%;
     border-radius: 100px;
 }
@@ -137,140 +131,6 @@ img {
     text-align: left;
     height: 30%;
 
-<<<<<<< HEAD
-/* Styles adresse et plan */
-.map-cont_master1 {
-display: flex;
-
- 
-}
-.map-cont_img {
-    width: 496px;
-    margin: 30px 20px 30px 20px; 
-
-}
-.map-cont_info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
-    padding: 0 0 0 340px;
-
-
-
-
-}
-.map-cont_name {
-    font-size: 40px;
-    width: 340px; /* Largeur du bloc Nom */
-    text-align: right; /* Aligner le texte à droite */
-    margin-left: auto; /* Déplacer le bloc vers la droite pour compenser la largeur */
-    margin-top: 30px;
-
-}
-.map-cont_line {
-    border: 0; /* Supprimer la bordure par défaut du hr */
-    border-top: 2px solid #000; /* Ajouter une bordure en haut du hr */
-    width: 30%;
-    margin: 20px 0; /* Espacement en haut et en bas du hr */
-}
-.map-cont_adress {
-    color: #CDC056;
-    font-size: 40px;
-    margin: 20px 0 30px 0;
-    
-}
-.map-cont_plan {
-    margin-bottom: 10px;
-}
-
-
-/* Styles formulaire de contact */
-.form-cont_master1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #000000;
-}
-
-.form-cont_title {
-    color: white;
-    font-size: 65px;
-    font-weight: bold;
-    text-align: left;
-    padding: 84px 040px 60px 0;  /* Placement du titre */
-}
-
-.form-cont_form {
-    color: white;
-    display: flex;
-    flex-direction: column;
-
-    width: 80%;
-}
-.form {
-    width: 100%;
-    flex-direction: row;
-
-}
-.form-group {
-    display: flex;
-    flex-direction: row; /* Placez les éléments en ligne */
-    align-items: center; /* Centrez les éléments verticalement */
-    padding: 0 0 45px 0;
-}
-
-.form-cont_mail {
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 45px 0;
-
-}
-
-label {
-    flex: 1;
-    font-size: 35px;
-    white-space: nowrap;
-    font-weight: bold;
-    text-align: right;
-    margin-right: 50px; /* Espace entre le label et le champ de saisie */
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    flex: 4; /* Faites en sorte que le champ de saisie occupe plus d'espace */
-    padding: 30px;
-    margin-top: 5px;
-    border-radius: 20px;
-}
-
-/* Styles CSS pour cibler le bouton */
-.form-button input[type="submit"] {
-    background-color: #5D92BE;
-    color: white;
-    border: none; /* Supprimez la bordure du bouton */
-    padding: 10px 50px; /* Ajoutez de la marge intérieure pour le bouton */
-    border-radius: 20px;
-    cursor: pointer; /* Changez le curseur au survol du bouton */
-    font-size: 20px; /* Taille de la police du texte du bouton */
-    margin: 50px 0 20px 340px; /* Placement du bouton */
-    font-weight: bold;
-
-}
-
-/* Style pour le survol du bouton */
-.form-button input[type="submit"]:hover {
-    background-color: #f43c80;
-}
-
-/* Styles footer */
-
-.footer-coypright {
-    /* font-family: en attente de la police kurale google font; */
-    text-align: center;
-    font-size: 20px;
-=======
 }
 .background-plats :nth-child(4) {
     font-size: 25px;
@@ -283,5 +143,134 @@ textarea {
     text-align: left;
     height: 25%;
 
->>>>>>> f98785d3cf7a5632d4e5832f8dee572520fbc4d0
 }
+.map {
+    width: 100vw;
+    height: 100vh;
+}
+.map-cont_master1 {
+    display: flex;
+    }
+    .map-cont_img {
+        width: 496px;
+        height: 729px;
+        margin: 30px 20px 30px 20px; 
+    
+    }
+    .map-cont_info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    
+    }
+    .map-cont_name {
+        font-size: 40px;
+        width: 340px; /* Largeur du bloc Nom */
+        text-align: right; /* Aligner le texte à droite */
+        margin-left: auto; /* Déplacer le bloc vers la droite pour compenser la largeur */
+        margin-top: 30px;
+    
+    }
+    .map-cont_line {
+        border: 0; /* Supprimer la bordure par défaut du hr */
+        border-top: 2px solid #000; /* Ajouter une bordure en haut du hr */
+        width: 30%;
+        margin: 20px 0; /* Espacement en haut et en bas du hr */
+    }
+    .map-cont_adress {
+        color: #CDC056;
+        font-size: 40px;
+        margin: 20px 0 30px 0;
+        
+    }
+    .map-cont_plan {
+        margin-bottom: 80px;
+        width: fit-content;
+    }
+    
+    
+    /* Styles formulaire de contact */
+    .form-cont_master1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        background-color: #000000;
+    }
+    
+    .form-cont_title {
+        color: white;
+        font-size: 65px;
+        font-weight: bold;
+        text-align: left;
+        padding: 84px 250px 60px 0;  /* Placement du titre */
+    }
+    
+    .form-cont_form {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0 180px 0 350px; /* Placement du bloc de tout le formulaire + le bouton */
+        width: 80%;
+    }
+    .form {
+        width: 100%;
+        flex-direction: row;
+    
+    }
+    .form-group {
+        display: flex;
+        flex-direction: row; /* Placez les éléments en ligne */
+        align-items: center; /* Centrez les éléments verticalement */
+        padding: 0 0 45px 0;
+    }
+    
+    .form-cont_mail {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 45px 0;
+    
+    }
+    
+    label {
+        flex: 1;
+        font-size: 35px;
+        white-space: nowrap;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 50px; /* Espace entre le label et le champ de saisie */
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        flex: 4; /* Faites en sorte que le champ de saisie occupe plus d'espace */
+        padding: 30px;
+        margin-top: 5px;
+        border-radius: 20px;
+    }
+    
+    /* Styles CSS pour cibler le bouton */
+    .form-button input[type="submit"] {
+        background-color: #5D92BE;
+        color: white;
+        border: none; /* Supprimez la bordure du bouton */
+        padding: 10px 50px; /* Ajoutez de la marge intérieure pour le bouton */
+        border-radius: 20px;
+        cursor: pointer; /* Changez le curseur au survol du bouton */
+        font-size: 20px; /* Taille de la police du texte du bouton */
+        margin: 50px 0 20px 340px; /* Placement du bouton */
+        font-weight: bold;
+    
+    }
+    
+    /* Style pour le survol du bouton */
+    .form-button input[type="submit"]:hover {
+        background-color: #f43c80;
+    }
+    .footer-coypright {
+        /* font-family: en attente de la police kurale google font; */
+        text-align: center;
+        font-size: 20px;
+    }
