@@ -1,8 +1,20 @@
 /* Styles Généraux */
+@font-face {
+    font-family: aurore;
+    src: url(/public/assets/font/La_Belle_Aurore/LaBelleAurore-Regular.ttf);
+}
+@font-face {
+    font-family: kurale;
+    src: url(/public/assets/font/Kurale/Kurale-Regular.ttf);
+}
+@font-face {
+    font-family: inknut;
+    src: url(/public/assets/font/Inknut_Antiqua/InknutAntiqua-Regular.ttf);
+}
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    /* width: 100vw; */
 }
 /* mehdi */
 
@@ -19,7 +31,7 @@ nav {
     justify-content: end;
     gap: 30px;
     padding-right: 30px;
-
+    font-family: kurale;
 }
 nav  a{
     text-decoration: none; /* pas d'héritage avec effet souligné */
@@ -39,14 +51,9 @@ nav  a:hover{ /* tous liens lors du survol dans la balise nav */
     width: 100vw;
     color: white;
 }
-h1 {
-    text-align: center;
-}
-h2 {
-    text-align: center;
-}
+.titre {
 
-
+}
 
 /* Styles main */
 
@@ -59,3 +66,9 @@ h2 {
 /* Styles formulaire de contact */
 
 /* Styles footer */
+
+.footer-coypright {
+    /* font-family: en attente de la police kurale google font; */
+    text-align: center;
+    font-size: 20px;
+}
