@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titre du site</title>
     <link rel="stylesheet" href="./public/assets/css/style.css">
 </head>
-    <body>
-        <!-- zone du travail du header -->
-            <header>
-                <div>
-                    <nav>
-                        <a href="">Présentation</a>
-                        <a href="">Le Restaurant</a>
-                        <a href="">Venir chez Nous</a>
-                        <a href="">Contact</a>
-                    </nav>
-                </div>
-                <div class="background-home">
-                    <h1>Les Trois Manuciens</h1>
-                    <h2>Par Thibaud, Nicolas et Mehdi</h2>
-                </div>
-            </header>
-        <!-- fin-zone du travail du header -->
 
-        <!-- zone du travail main -->
-        <main>
+<body>
+    <!-- zone du travail du header -->
+    <header>
+        <div>
+            <nav>
+                <a href="">Présentation</a>
+                <a href="">Le Restaurant</a>
+                <a href="">Venir chez Nous</a>
+                <a href="">Contact</a>
+            </nav>
+        </div>
+        <div class="background-home">
+            <h1>Les Trois Manuciens</h1>
+            <h2>Par Thibaud, Nicolas et Mehdi</h2>
+        </div>
+    </header>
+    <!-- fin-zone du travail du header -->
+
+    <!-- zone du travail main -->
+    <main>
 
         <!-- zone du travail : présentation -->
             <section class="presentation">
@@ -48,47 +50,80 @@
 
             </section>
         <!-- fin-zone du travail plats + explications -->
+<<<<<<< HEAD
         
+    <!-- zone de travail Adresse/plan -->
+   <section>
+    <div class="map-cont_master1">
+        <div class="map-cont_img"><img src=""></div>
+        <div class="map-cont_info">
+            <div class="map-cont_name">Les Trois Manuciens</div>
+            <hr class="map-cont_line">
+            <div class="map-cont_adress">70 rue des Jacobins<br>80000 Amiens<br>03.22.44.23.22</div>
+            <div class="map-cont_plan"><iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1080.7433602650017!2d2.3011897808251542!3d49.890253276630226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78446501e03cb%3A0xd90c13e3b01c0596!2s70%20Rue%20des%20Jacobins!5e0!3m2!1sfr!2sfr!4v1694261589715!5m2!1sfr!2sfr" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+    </div>
+</section>
+    <!-- fin-zone de travail Adresse/plan -->
+        
+<!-- zone de travail contact et formulaire -->
+<section>
+    <div class="form-cont_master1">
+        <div class="form-cont_title">Nous Contacter</div>
+            <div class="form-cont_form">
+            <form method="get" action="mailto:adressmail.resto@gmail.com" class="form">
+                    <div class="form-group">
+                        <label for="contact-name">Votre Nom :</label>
+                    <input type="text" name="contact-name" id="contact-name" placeholder="ex: Dupont Marcel">
+                </div>
+                <div class="form-group">
+                    <label for="contact-subject">Sujet :</label>
+                    <input type="text" name="contact-subject" id="contact-subject" placeholder="ex: Traiteur">
+                </div>
+                <div class="form-group">
+                    <label for="contact-request">Votre demande :</label>
+                    <textarea name="contact-request" id="contact-request" rows="7" placeholder="Votre demande"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="contact-mail">Votre email :</label>
+                    <input type="email" name="contact-mail" id="contact-mail" placeholder="ex: marcel.dupont@gmail.com">
+                </div>
+                <div class="form-button">
+                    <input type="submit" value="Envoyer ma demande">
+                </div>
+            </form>
+        </div>
+        
+        </div>
+    </section>
+    <!-- fin-zone de travail contact et formulaire -->
+    
+        </main>
+                    <!-- fin-zone du travail main -->
+=======
+
         <!-- zone de travail Adresse/plan -->
             <section>
 
             </section>
         <!-- fin-zone de travail Adresse/plan -->
-        
+
         <!-- zone de travail contact et formulaire -->
             <section>
 
             </section>
         <!-- fin-zone de travail contact et formulaire -->
-        
-        <div class="form-cont_master1">
-            <div class="form-cont_title">Nous Contacter</div>
-            <div class="form-cont_form">
-                <form method="get" action="">
-                    <div class="form-group">
-                        <label for="name">Votre Nom :</label><input type="text" name="contact-name" id="contact-name" placeholder="ex: Dupont Marcel">
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Sujet :</label><input type="text" name="contact-subject" id="contact-subject" placeholder="ex: Devis">
-                    </div>
-                    <div class="form-group">
-                        <label for="request">Votre demande :</label><textarea name="contact-request" id="contact-request" placeholder="Votre demande"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="mail">Votre email :</label><input type="email" name="contact-mail" id="contact-mail" placeholder="ex: marcel.dupont@gmail.com">
-                    </div>
-                </form>
-            </div>
-        </div>
 
 
-        </main>
-                    <!-- fin-zone du travail main -->
+    </main>
+    <!-- fin-zone du travail main -->
+>>>>>>> ef93311588b3b0b61f22905ff79dc0d41f98b198
 
-                <!-- zone de travail du footer -->
-                <footer>
+    <!-- zone de travail du footer -->
+    <footer>
+        <p class="footer-coypright">Copyright : Les Trois Manuciens - Tous droits réservés.</p>
+    </footer>
+    <!-- fin-zone de travail du footer -->
+</body>
 
-                </footer>
-                <!-- fin-zone de travail du footer -->
-        </body>
 </html>
