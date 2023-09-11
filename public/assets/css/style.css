@@ -51,6 +51,21 @@ h2 {
 /* Styles main */
 
 /* Styles présentation */
+.presentation {
+    display: block;
+}
+.photochef {
+    width: 25%;
+    float: left;
+}
+.presentation h1 {
+    text-align: right;
+}
+.presentation p {
+    font-size: 23px;
+    text-align: right;
+}
+
 
 /* Styles plats et explications */
 
